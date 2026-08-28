@@ -1,1 +1,277 @@
-# Mrs.-ZM-s-Intro.-to-British-Literature-Webquest
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebQuest: British Literature Overview</title>
+  <style>
+    /* Global Styles */
+    :root {
+      --primary: #1e293b;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #334155;
+      --text-heading: #0f172a;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin: 0;
+      color: #94a3b8;
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    /* Task Box */
+    .instructions-card {
+      background-color: #eff6ff;
+      border-left: 5px solid var(--accent);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2.5rem;
+    }
+
+    .instructions-card h2 {
+      margin-top: 0;
+      color: var(--text-heading);
+    }
+
+    .instructions-card ol {
+      margin-bottom: 0;
+      padding-left: 1.25rem;
+    }
+
+    .instructions-card li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* WebQuest Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    }
+
+    .card-header {
+      border-b: 1px solid #f1f5f9;
+      padding-bottom: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .group-badge {
+      display: inline-block;
+      background-color: #e0e7ff;
+      color: #3730a3;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 0.25rem 0.6rem;
+      border-radius: 20px;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-header h3 {
+      margin: 0;
+      color: var(--text-heading);
+      font-size: 1.3rem;
+    }
+
+    .card-body p {
+      font-size: 0.95rem;
+      color: #64748b;
+      margin-top: 0;
+    }
+
+    .link-list {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0 0;
+    }
+
+    .link-list li {
+      margin-bottom: 0.5rem;
+    }
+
+    .link-list a {
+      display: block;
+      padding: 0.6rem 0.8rem;
+      background-color: #f1f5f9;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .link-list a:hover {
+      background-color: var(--accent);
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌐 Journey Through British Literature</h1>
+    <p>12th Grade ELA • 20-Minute Small Group WebQuest</p>
+  </header>
+
+  <div class="container">
+    <div class="instructions-card">
+      <h2>WebQuest Task Instructions</h2>
+      <p>Locate your assigned group station below and explore the provided trusted digital archives to answer these 3 core questions on your group paper:</p>
+      <ol>
+        <li><strong>Historical Context:</strong> What major historical event, innovation, or conflict shaped this era's worldview?</li>
+        <li><strong>Key Authors & Works:</strong> Name at least <strong>two</strong> landmark authors and their famous works from this era.</li>
+        <li><strong>Literary Themes:</strong> What is one central theme, writing style, or values system dominant during this period?</li>
+      </ol>
+    </div>
+
+    <div class="grid">
+      
+      <div class="card">
+        <div>
+          <div class="card-header">
+            <span class="group-badge">Group 1</span>
+            <h3>Old & Middle English (450–1485)</h3>
+          </div>
+          <div class="card-body">
+            <p>Anglo-Saxon warrior culture, oral storytelling traditions, medieval chivalry, and social satire.</p>
+          </div>
+        </div>
+        <ul class="link-list">
+          <li><a href="https://www.britannica.com/topic/Anglo-Saxon" target="_blank">Britannica: Anglo-Saxon History</a></li>
+          <li><a href="https://www.bl.uk/medieval-literature" target="_blank">British Library: Medieval Texts</a></li>
+          <li><a href="https://www.history.com/topics/middle-ages" target="_blank">History.com: Middle Ages Overview</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div>
+          <div class="card-header">
+            <span class="group-badge">Group 2</span>
+            <h3>Renaissance & Early Modern (1485–1660)</h3>
+          </div>
+          <div class="card-body">
+            <p>The rebirth of art and humanism, the printing press, Elizabethan drama, and poetic sonnets.</p>
+          </div>
+        </div>
+        <ul class="link-list">
+          <li><a href="https://www.britannica.com/art/Renaissance-literature" target="_blank">Britannica: Renaissance Lit</a></li>
+          <li><a href="https://www.bl.uk/shakespeare" target="_blank">British Library: Shakespeare Era</a></li>
+          <li><a href="https://www.history.com/topics/renaissance/renaissance" target="_blank">History.com: Tudor England</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div>
+          <div class="card-header">
+            <span class="group-badge">Group 3</span>
+            <h3>Neoclassicism to Romanticism (1660–1837)</h3>
+          </div>
+          <div class="card-body">
+            <p>Enlightenment logic and reason shifting into nature worship, raw emotion, and Gothic mystery.</p>
+          </div>
+        </div>
+        <ul class="link-list">
+          <li><a href="https://www.britannica.com/art/Romantic-literature" target="_blank">Britannica: Romantic Movement</a></li>
+          <li><a href="https://www.bl.uk/romantics-and-victorians" target="_blank">British Library: Romantics & Gothic</a></li>
+          <li><a href="https://www.history.com/topics/european-history/enlightenment" target="_blank">History.com: Age of Reason</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div>
+          <div class="card-header">
+            <span class="group-badge">Group 4</span>
+            <h3>The Victorian Era (1837–1901)</h3>
+          </div>
+          <div class="card-body">
+            <p>The Industrial Revolution, imperial expansion, social realism novels, and moral dilemmas.</p>
+          </div>
+        </div>
+        <ul class="link-list">
+          <li><a href="https://www.britannica.com/art/English-literature/The-Victorian-period" target="_blank">Britannica: Victorian Literature</a></li>
+          <li><a href="https://www.bl.uk/victorian-britain" target="_blank">British Library: Victorian Writers</a></li>
+          <li><a href="https://www.history.com/topics/industrial-revolution" target="_blank">History.com: Industrial Era</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div>
+          <div class="card-header">
+            <span class="group-badge">Group 5</span>
+            <h3>Modern & Postmodern Era (1901–Present)</h3>
+          </div>
+          <div class="card-body">
+            <p>WWI disillusionment, stream-of-consciousness writing, existentialism, and modern global voices.</p>
+          </div>
+        </div>
+        <ul class="link-list">
+          <li><a href="https://www.britannica.com/art/Modernism-art" target="_blank">Britannica: Literary Modernism</a></li>
+          <li><a href="https://www.bl.uk/20th-century-literature" target="_blank">British Library: 20th-Century Lit</a></li>
+          <li><a href="https://www.history.com/topics/world-war-i/world-war-i-history" target="_blank">History.com: World War I Impact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>12th Grade British Literature • Interactive Day 1 Overview</p>
+  </footer>
+
+</body>
+</html>
